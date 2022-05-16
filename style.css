@@ -42,7 +42,7 @@ body {
     flex-grow: 0;
 }
 
-p {
+input {
     width: 398px;
     height: 24px;
 

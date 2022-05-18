@@ -9,10 +9,10 @@
 body {
     width: 100%;
     background: #FAFAFA;
-    display: flex;
+    /*display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: column;*/
 }
 
 #Navbar {
@@ -82,18 +82,43 @@ body {
 }
 
 
+.container{
+    margin-top: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cards {
+    margin: 80px 114px;
+    display: grid;
+    grid-template-rows: 50fr 50fr;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
 
 .produto{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     padding: 24px;
+    gap: 31px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
 
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 
+}
+
+.imagem-do-produto{
+    /*border: 2px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -101,6 +126,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    /*border: 2px solid black;*/
 }
 
 .nome-do-produto {
@@ -145,25 +171,6 @@ body {
 
 }
 
-.container{
-    margin-top: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    
-    width: 100%;
-}
-
-.cards {
-    margin: 80px 114px 80px 114px;
-    display: grid;
-    grid-template-rows: 50fr 50fr;
-    grid-template-columns: 25fr 25fr 25fr 25fr;
-    row-gap: 32px;
-    column-gap: 32px;
-}
-
 
 
 #tablito-img {
@@ -172,7 +179,6 @@ body {
 }
 
 #tablito-picole {
-
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -182,7 +188,6 @@ body {
 #brigadeiro-img {
     width: 192px;
     height: 192px;
-
 }
 
 #brigadeiro {
@@ -209,30 +214,32 @@ body {
 }
 
 footer {
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 114px;
+    
+    height: Hug(155.02px);*/
+    /*position: static;
+    height: 155.02px;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;*/
+    background: #F2F2F2;
+    width: 100%;
+    
+}
+
+.container2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 48px 114px;
     
-    width: 100%;
-    height: 155.02px;
+    height: Hug(155.02px);
     
-    position: static;
-    height: 155.02px;
-    left: 0%;
-    right: 0%;
-    bottom: 0px;
-    background: #F2F2F2;
-    
-}
-
-.content{
-    padding: 48px 114px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
 }
 
 #frame1 {

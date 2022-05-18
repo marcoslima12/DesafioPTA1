@@ -5,13 +5,13 @@
     vertical-align: baseline;
 }
 
-
 body {
     width: 100%;
+    height: 100rem;
     background: #FAFAFA;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -20,11 +20,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 114px;
-   
-
+    padding: 40px 32px 20px;
+    
     position: fixed;
-    height: hug(199px);
+    height: 129.42px;
     left: 0%;
     right: 0%;
     top: 0px;
@@ -32,67 +31,60 @@ body {
     background: rgba(255, 255, 255, 0.6);
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 0px;
-   
 }
 
 #logo-navbar {
-    width: 120px;
-    height: 119px;
+    width: 70px;
+    height: 69.42px;    
 }
 
 #SearchField {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    padding: 8px 16px;
-    gap: 16px;
-
-    width: 450px;
-    height: 61px;
-
+    padding: 5.34973px 10.6995px;
+    
+    width: 40px;
+    height: 40px;
+    
     background: #FFFFFF;
-    border: 0.5px solid rgba(96, 96, 96, 0.3);
+    border: 0.334358px solid rgba(96, 96, 96, 0.3);
     border-radius: 8px;
 }
 
 #icone-lupa {
-    width: 20px;
-    height: 20px;
-    order: 0;
+    width: 13.37px;
+    height: 13.37px;
 }
 
-#input-grande {
-    width: 398px;
-    height: 24px;
-
+#input-pequeno {
+    display: none;
+    width: 266.15px;
+    height: 16px;
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    border: 0;
+    font-size: 13.3743px;
+    line-height: 16px;
+    
     color: rgba(96, 96, 96, 0.6);
-    order: 1;
-  
 
 }
 
-#input-pequeno{
+#input-grande{
     display: none;
 }
 
-
-
-.produto{
+.produto-com-descricao {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     padding: 24px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
-
-    border: 2px solid black;
 
 }
 
@@ -145,16 +137,6 @@ body {
 
 }
 
-.container{
-    margin-top: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    
-    width: 100%;
-}
-
 .cards {
     margin: 80px 114px 80px 114px;
     display: grid;
@@ -162,9 +144,18 @@ body {
     grid-template-columns: 25fr 25fr 25fr 25fr;
     row-gap: 32px;
     column-gap: 32px;
+
 }
 
-
+/*.cards {
+    display: grid;
+    grid-template-rows: 50fr 50fr;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    row-gap: 32px;
+    column-gap: 32px;
+    width: 100%;
+    height: 100%;
+}*/
 
 #tablito-img {
     width: 270px;
@@ -224,7 +215,6 @@ footer {
     right: 0%;
     bottom: 0px;
     background: #F2F2F2;
-    
 }
 
 .content{
@@ -247,14 +237,13 @@ footer {
 }
 
 .rede {
-    display: flex;
-    align-items: center;
-    justify-content: center;  
     width: 35px;
     height: 35px;
     border: 1.5px solid rgba(96, 96, 96, 0.3);
     border-radius: 50%;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #frame2 {

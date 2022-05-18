@@ -18,42 +18,43 @@
 <body>
 
     <header id="Navbar">
-        <img src="assets/duble_dip-logo.png" id="logo-navbar" alt="Logo da Duble Dip">
+        <img src="assets/duble_dip-logo.png" id="logo-duble-dip-navbar" alt="Logo da Duble Dip">
         <div id="SearchField">
             <img id="icone-lupa" src="assets/magnifyingglass.png" alt="icone de lupa">
-            <input type="text" placeholder="Procure seu sorteve" id="input-grande" required>
-            <input type="text" id="input-pequeno" required>
+            <input type="text" placeholder="Procure seu sorteve" id="input-desktop" required>
+            <input type="text" id="input-mobile" required>
         </div>
     </header>
 
-    <div class="container">
-        <section class="cards">
+    <section class="container-cards">
+        <div class="cards">
+
             <div class="produto" id="tablito-picole">
                 <div class="imagem-do-produto">
-                    <img src="assets/items/tablito-picole.jpg" id="tablito-img">
+                    <img src="assets/items/tablito-picole.jpg" class="produto-grande-img">
                 </div>
-                <div class="parte-descritiva">
-                    <h3 class="nome-do-produto">Picolé Tablito</h3>
-                    <h5 class="descricao-do-produto">Picolé de chocolate tradicional e branco 106g (R$ 0,05/g)</h5>
+                <div class="parte-textual">
+                    <p class="nome-do-produto">Picolé Tablito</p>
+                    <p class="descricao-do-produto">Picolé de chocolate tradicional e branco 106g (R$ 0,05/g)</p>
                 </div>
-                <h4 class="preco">R$ 5,00</h4>
+                <p class="preco">R$ 5,00</p>
             </div>
 
             <div class="produto" id="brigadeiro">
-                <div class="imagem-do-produto" id="brigadeiro-img">
+                <div class="imagem-do-produto" class="produto-pequeno-img">
                     <img src="assets/items/brigadeiro.png">
                 </div>
             </div>
 
             <div class="produto" id="kolorex">
-                <div class="imagem-do-produto">
+                <div class="imagem-do-produto" class="produto-pequeno-img">
                     <img src="assets/items/kolorex.png">
                 </div>
             </div>
 
             <div class="produto" id="chicabom">
                 <div class="imagem-do-produto">
-                    <img src="assets/items/chichabom.png">
+                    <img src="assets/items/chichabom.png" class="produto-grande-img">
                 </div>
                 <div class="parte-descritiva">
                     <h3 class="nome-do-produto">Chica Bon</h3>
@@ -64,35 +65,35 @@
 
             <div class="produto" id="kibom">
                 <div class="imagem-do-produto">
-                    <img src="assets/items/kibom.png">
+                    <img src="assets/items/kibom.png" class="produto-pequeno-img">
                 </div>
             </div>
 
             <div class="produto" id="minions">
                 <div class="imagem-do-produto">
-                    <img src="assets/items/minions.png">
+                    <img src="assets/items/minions.png" class="produto-pequeno-img">
                 </div>
-        </section>
-    </div>
+            </div>
+    </section>
 
     <footer>
-        <div class="container2">
-            <div id="frame1">
-                <div class="rede">
-                    <img src="assets/ic-linkedin.png" alt="logo linkedin">
+        <div class="container-footer">
+            <div id="redes-sociais">
+                <div class="rede-social">
+                    <img src="assets/ic-linkedin.png" alt="logo Linkedin">
                 </div>
-                <div class="rede">
-                    <img src="assets/ic Facebook.png" alt="logo facebook">
+                <div class="rede-social">
+                    <img src="assets/ic Facebook.png" alt="logo Facebook">
                 </div>
-                <div class="rede">
+                <div class="rede-social">
                     <img src="assets/ic Twitter.png" alt="logo Twitter">
                 </div>
             </div>
-            <div id="frame2">
-                <img src="assets/duble_dip-logo.png" alt="logo da Dubl Dip" id="logo-footer">
+            <div id="logo-footer">
+                <img src="assets/duble_dip-logo.png" alt="logo da Dubl Dip" id="logo-duble-dip-footer">
             </div>
             <div>
-                <p>Made with </> and <3 by Marcos Antonio</p>
+            <p id="Pricing"> Made with &lt; </> &gt; and <3 by Marcos Antonio </p>
             </div>
         </div>
         

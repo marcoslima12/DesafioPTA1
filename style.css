@@ -6,7 +6,13 @@
 }
 
 body {
-    background: #E5E5E5;
+    width: 1440px;
+    height: 1024px;
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #Navbar {
@@ -15,17 +21,22 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 40px 114px;
-    width: 100%px;
-    height: 199px;
-    background: rgba(255, 255, 255, 0.6);
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     gap: 540px;
 
+    position: fixed;
+    height: 199px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 0px;
 }
 
-#logo-navbar{
+#logo-navbar {
     width: 120px;
-height: 119px;
+    height: 119px;
 }
 
 #SearchField {
@@ -64,13 +75,6 @@ input {
 
 }
 
-.cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 114px;
-}
-
 .produto-com-descricao {
     display: flex;
     flex-direction: column;
@@ -79,14 +83,11 @@ input {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
-    margin: 32px;
+
 }
 
-.imagem-do-produto{
-    justify-items: center;
-}
 
-.parte-descritiva{
+.parte-descritiva {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -134,37 +135,63 @@ input {
 
 }
 
-.catalago {
+.cards {
+    padding: 80px 114px 80px 114px;
+    width: 1212px;
+    height: 512px;
     display: grid;
     grid-template-rows: 50fr 50fr;
     grid-template-columns: 25fr 25fr 25fr 25fr;
+    row-gap: 32px;
+    column-gap: 32px;
+
 }
 
+/*.cards {
+    display: grid;
+    grid-template-rows: 50fr 50fr;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    row-gap: 32px;
+    column-gap: 32px;
+    width: 100%;
+    height: 100%;
+}*/
+
+#tablito-img {
+    width: 270px;
+    height: 270px;
+}
 
 #tablito-picole {
+
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-  
 }
 
-#brigadeiro{
+#brigadeiro-img {
+    width: 192px;
+    height: 192px;
+
+}
+
+#brigadeiro {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
- 
+
 }
 
-#kolorex{
+#kolorex {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#chicabom{
+#chicabom {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -172,15 +199,29 @@ input {
 
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 48px 114px;
+    
+    width: 100%;
+    height: 155.02px;
+    
+
+    background: #F2F2F2;
 }
 
-#redes-sociais{
+.content{
+    padding: 48px 114px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#frame1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -191,46 +232,46 @@ footer{
     height: 35px;
 }
 
-#logo-footer{
+.rede {
+    width: 35px;
+    height: 35px;
+    border: 1.5px solid rgba(96, 96, 96, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#frame2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin: 0 323px;
     width: 60px;
     height: 59.02px;
 }
 
+#logo-footer {
+    width: 60px;
+    height: 59.02px;
+}
+
+p {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 253px;
+    height: 17px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
 
 
+    color: #292929;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

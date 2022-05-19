@@ -55,7 +55,7 @@ body {
     order: 0;
 }
 
-#input-desktop {
+#campo-de-pesquisa{
     width: 398px;
     height: 24px;
 
@@ -70,10 +70,10 @@ body {
   
 
 }
-
+/*
 #input-mobile {
     display: none;
-}
+}*/
 
 .container-cards{
     margin-top: 12em;

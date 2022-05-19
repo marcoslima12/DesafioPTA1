@@ -16,14 +16,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 40px 32px 20px;
-    
-    
+
+
     position: fixed;
     height: hug(129.42px);
     left: 0%;
     right: 0%;
     top: 0px;
-    
+
     background: rgba(255, 255, 255, 0.6);
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 0px;
@@ -41,14 +41,14 @@ body {
     align-items: center;
     padding: 5.34973px 10.6995px;
     gap: 10.7px;
-    
+
     width: 40px;
     height: 40px;
-    
+
     background: #FFFFFF;
     border: 0.334358px solid rgba(96, 96, 96, 0.3);
     border-radius: 8px;
-    
+
 }
 
 #icone-lupa {
@@ -81,18 +81,18 @@ body {
     display: none;
     width: 266.15px;
     height: 16px;
-    
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 13.3743px;
     line-height: 16px;
-    
+
     color: rgba(96, 96, 96, 0.6);
 }
 
-.container-cards{
-    margin-top: 12em;
+.container-cards {
+    margin-top: 6em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,24 +103,26 @@ body {
 .cards {
     margin: 80px 114px;
     display: grid;
-    grid-template-rows: 50fr 50fr;
-    grid-template-columns: 25fr 25fr 25fr 25fr;
+    grid-template-rows: 25fr 25fr 25fr 25fr;
+    grid-template-columns: 50fr 50fr;
     row-gap: 32px;
     column-gap: 32px;
 }
 
-.produto{
+.produto {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 24px;
-    gap: 31px;
+    padding: 13.261px;
+    gap: 17.13px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
-    border-radius: 16px;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
 }
 
-.imagem-do-produto{
+
+
+.imagem-do-produto {
     margin-left: auto;
     margin-right: auto;
 }
@@ -132,38 +134,58 @@ body {
 }
 
 .nome-do-produto {
-    width: 270px;
-    height: 39px;
+    width: 149.19px;
+    height: 22px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 17.6814px;
+    line-height: 22px;
     color: #292929;
+
 }
 
+
+
 .descricao-do-produto {
-    width: 270px;
-    height: 40px;
+    width: 149.19px;
+    height: 22px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 8.84068px;
+    line-height: 11px;
 
     color: #606060;
 }
 
-.preco {
-    width: 89px;
-    height: 29px;
+
+
+.local-de-preco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4.42034px;
+    gap: 5.53px;
+
+    width: 57.84px;
+    height: 24.84px;
+
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 4.42034px;
+}
+
+/*.preco {
+    width: 57.84px;
+    height: 24.84px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 13.261px;
+    line-height: 16px;
     color: #000000;
     margin-top: 31px;
     padding: 8px;
@@ -171,21 +193,35 @@ body {
     background: rgba(249, 199, 191, 0.5);
     border-radius: 8px;
 
+}*/
+
+.preco {
+    width: 49px;
+    height: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.261px;
+    line-height: 16px;
+
+    color: #000000;
 }
 
 .produto-grande-img {
-    width: 270px;
-    height: 270px;
+    width: 149.19px;
+    height: 149.19px;
 }
 
 .produto-pequeno-img {
-    width: 192px;
-    height: 192px;
+    width: 106.09px;
+    height: 106.09px;
 }
 
 #tablito-picole {
     grid-column-start: 1;
     grid-column-end: 2;
+
     grid-row-start: 1;
     grid-row-end: 3;
 }
@@ -193,6 +229,7 @@ body {
 #brigadeiro {
     grid-column-start: 2;
     grid-column-end: 3;
+
     grid-row-start: 1;
     grid-row-end: 2;
 }
@@ -212,18 +249,18 @@ body {
     grid-row-end: 3;
 }
 
-#kibom{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
+#kibom {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
 
-#minions{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+#minions {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 footer {
@@ -231,15 +268,15 @@ footer {
     width: 100%;
 }
 
-.container-footer{
+.container-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 48px 114px;
-    
+
     height: Hug(155.02px);
-    
+
 }
 
 #redes-sociais {
@@ -256,12 +293,12 @@ footer {
 .rede-social {
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     width: 35px;
     height: 35px;
     border: 1.5px solid rgba(96, 96, 96, 0.3);
     border-radius: 50%;
-    
+
 }
 
 #logo-footer {
@@ -281,7 +318,7 @@ footer {
     height: 59.02px;
 }
 
-#Pricing{
+#Pricing {
     display: flex;
     flex-wrap: nowrap;
     width: 253px;

@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 40px 114px;
-   
+
     position: fixed;
     height: hug(199px);
     left: 0%;
@@ -26,7 +26,7 @@ body {
     background: rgba(255, 255, 255, 0.6);
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 0px;
-   
+
 }
 
 #logo-duble-dip-navbar {
@@ -55,7 +55,7 @@ body {
     order: 0;
 }
 
-#campo-de-pesquisa{
+#campo-de-pesquisa {
     width: 398px;
     height: 24px;
 
@@ -67,36 +67,27 @@ body {
     border: 0;
     color: rgba(96, 96, 96, 0.6);
     order: 1;
-  
+
 
 }
-/*
-#input-mobile {
-    display: none;
-}*/
 
-.container-cards{
+
+.container-cards {
     margin-top: 12em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /*width: 100%;*/
-    /*background-color: #292929;*/
 }
 
 .cards {
     margin: 80px 114px;
     display: grid;
-    /*grid-template-rows: 50fr 50fr;*/
     grid-template-columns: 50fr 50fr;
-    /*row-gap: 32px;*/
     column-gap: 32px;
-    /*background-color: aquamarine;*/
 }
 
-.card1{
-    /*background-color: brown;*/
+.card1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -109,8 +100,7 @@ body {
     column-gap: 32px;
 }
 
-.card2{
-    /*background-color: rgb(62, 169, 33);*/
+.card2 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -123,7 +113,7 @@ body {
     column-gap: 32px;
 }
 
-.produto{
+.produto {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -134,7 +124,7 @@ body {
     border-radius: 16px;
 }
 
-.imagem-do-produto{
+.imagem-do-produto {
     margin-left: auto;
     margin-right: auto;
 }
@@ -168,51 +158,35 @@ body {
     line-height: 20px;
 
     color: #606060;
-    
+
 
 }
 
-.local-de-preco{
+.local-de-preco {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 8px;
-   
+
     width: 105px;
     height: 45px;
-    
+
     background: rgba(249, 199, 191, 0.5);
     border-radius: 8px;
 }
 
-/*.preco {
+
+.preco {
     width: 89px;
     height: 29px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    color: #000000;
-    margin-top: 31px;
-    padding: 8px;
-    gap: 10px;
-    background: rgba(249, 199, 191, 0.5);
-    border-radius: 8px;
 
-}*/
-
-.preco{
-    width: 89px;
-    height: 29px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    
     color: #000000;
 
 }
@@ -256,14 +230,14 @@ body {
     grid-row-end: 3;
 }
 
-#kibom{
+#kibom {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
-#minions{
+#minions {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -275,15 +249,15 @@ footer {
     width: 100%;
 }
 
-.container-footer{
+.container-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 48px 114px;
-    
+
     height: Hug(155.02px);
-    
+
 }
 
 #redes-sociais {
@@ -297,15 +271,15 @@ footer {
     height: 35px;
 }
 
-.rede-social {
+.container-rede-social {
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     width: 35px;
     height: 35px;
     border: 1.5px solid rgba(96, 96, 96, 0.3);
     border-radius: 50%;
-    
+
 }
 
 #logo-footer {
@@ -320,12 +294,12 @@ footer {
     height: 59.02px;
 }
 
-#logo-duble-dip-footer {
+#logo-double-dip-footer {
     width: 60px;
     height: 59.02px;
 }
 
-#Pricing{
+#Pricing {
     display: flex;
     flex-wrap: nowrap;
     width: 253px;

@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 16px;
+    padding: 0px 16px;
     gap: 16px;
 
     width: 450px;
@@ -52,7 +52,7 @@ body {
 #icone-lupa {
     width: 20px;
     height: 20px;
-    order: 0;
+
 }
 
 #campo-de-pesquisa {
@@ -66,10 +66,8 @@ body {
     line-height: 24px;
     border: 0;
     color: rgba(96, 96, 96, 0.6);
-    order: 1;
-
-
 }
+
 
 
 .container-cards {
@@ -260,7 +258,7 @@ footer {
 
 }
 
-#redes-sociais {
+#container-redes-sociais {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -282,7 +280,7 @@ footer {
 
 }
 
-#logo-footer {
+#container-logo-footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
